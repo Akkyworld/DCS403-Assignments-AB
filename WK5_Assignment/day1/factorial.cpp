@@ -1,4 +1,4 @@
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 long long factorial(int n){
@@ -14,10 +14,10 @@ int main(){
     cout << "Factorial of " << num << " is " << factorial(num) << endl;
     return 0;
 }
- */
+ 
 
 // Sum upto series
-/* #include <iostream>
+ #include <iostream>
 using namespace std;
 
 int sumUpto(int n){
@@ -32,9 +32,10 @@ int main(){
     cin >> num;
     cout << "Sum of series upto " << num << " is " << sumUpto(num) << endl;
     return 0;
-} */
+}
+
 //fibonachi series
-/* #include <iostream>
+#include <iostream>
 using namespace std;
 
 int fib(int n) {
@@ -55,10 +56,10 @@ int main() {
         cout << fib(i) << " ";
     }
     return 0;
-} */
+}
 
 // Towers of Hanoi
- /* #include <iostream>
+  #include <iostream>
 using namespace std;
 
 void towerOfHanoi(int n, char source, char auxiliary, char destination) {
@@ -77,7 +78,7 @@ int main() {
     cin >> num;
     towerOfHanoi(num, 'A', 'B', 'C');
     return 0;
-} */
+}
 
 // Eight Queens
 #include <iostream>
@@ -131,3 +132,5 @@ int main() {
     solveNQueens(board, 0);
     return 0;
 }
+
+//When to use tail recursion, actual benefit
